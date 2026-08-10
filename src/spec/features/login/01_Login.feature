@@ -5,8 +5,16 @@ ETQ utilisateur je souhaite tester la page connexion de l'application Demo Web S
 @login_validCredentials
 Scenario: Je souhaite tester la page login avec des données valides
 Given Je me connecte sur le site Demo Web Shop
-When Je clique sur le bouton login
+When Je clique sur le bouton log in
 And Je saisis une adresse email
 And Je saisis le mot de passe
-And Je clique sur le bouton login
-Then Je me redirige vers la page home
+And Je clique sur le bouton login 
+Then Je me redirige vers la page home "ichrafbenmohamed@gmail.com"
+
+
+
+
+
+
+
+
